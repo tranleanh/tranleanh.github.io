@@ -65,7 +65,7 @@
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
 					<ul>
-						<li><strong>Encoder-Decoder Network with Guided Transmission Map for Image Dehazing</strong></li>
+						<li><strong>Object Detection Streaming and Data Management on Web Browser</strong></li>
 						<hr style="width:50%">
 					</ul>
 				</div>
@@ -107,13 +107,13 @@
 
 										<p style="padding-bottom: 0.005cm;"> </p>
 
-										<h2 class="colorlib-heading">Encoder-Decoder Network with Guided Transmission Map for Image Dehazing</h2>
+										<h2 class="colorlib-heading">Object Detection Streaming and Data Management on Web Browser</h2>
 
 										<p style="color:black;font-size:18px;"><strong>Abstract</strong></p>
 
-										<p style="color:black;font-size:14px;">A plain-architecture and effective image dehazing scheme, called Encoder-Decoder Network with Guided Transmission Map (EDN-GTM), is proposed in this paper. Nowadays, neural networks are often built based on complex architectures and modules, which inherently prevent them from being efficiently deployed on general mobile platforms that are not integrated with latest deep learning operators. Hence, from a practical point of view, plain-architecture networks would be more appropriate for implementation. To this end, we aim to develop non-sophisticated networks with effective dehazing performance. A vanilla U-Net is adopted as a starting baseline, then extensive analyses have been conducted to derive appropriate training settings and architectural features that can optimize dehazing effectiveness. As a result, several modifications are applied to the baseline such as plugging spatial pyramid pooling to the bottleneck and replacing ReLU activation with Swish activation. Moreover, we found that the transmission feature estimated by Dark Channel Prior (DCP) can be utilized as an additional prior for a generative network to recover appealing haze-free images. Experimental results on various benchmark datasets have shown that the proposed EDN-GTM scheme can achieve state-of-the-art dehazing results as compared to prevailing dehazing methods which are built upon complex architectures. In addition, the proposed EDN-GTM model can be combined with YOLOv4 to witness an improvement in object detection performance in hazy weather conditions.</p>
+										<p style="color:black;font-size:14px;">This project presents an object-detection-based surveillance system applying YOLOv3 engine and streaming the detection result on a web browser with 2 cameras (2 channels), simultaneously the detection information is stored in a database. The application consists of three main components: (1) YOLOv3 object detection module, (2) a database for storing detection results including images and information, and (3) a web template for observation and querying data from the database. This application applied Django, an open-source and flexible web framework written in Python, for communicating between the object detection module, the database, and the web browser. The experimental results proved that the application can work stably and can be applied to surveillance system at companies, factories, or public locations such as bus station or airport.</p> 
 
-										<p style="color:black;font-size:14px;">The code of this work is publicly available at <a href="https://github.com/tranleanh/edn-gtm">https://github.com/tranleanh/edn-gtm</a>.</p>
+										<p style="color:black;font-size:14px;">The code of this work is publicly available at <a href="https://github.com/tranleanh/yolo-django-streaming">https://github.com/tranleanh/yolo-django-streaming</a>.</p>
 
 										<br><br>
 
